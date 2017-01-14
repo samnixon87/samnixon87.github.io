@@ -1,0 +1,90 @@
+@font-face {
+  font-family: 'helvetica neue neue', sans-serif;
+
+}
+
+
+.body {
+    background-color: #fcf2e8;
+}
+
+.headline {
+    font-family: "helvetica neue", sans-serif;
+    font-size: 4em;
+    color: #365066;
+    margin-top: 1.2em;
+}
+
+.p {
+  font-family: "helvetica neue", sans-serif;
+  font-size: 2em;
+}
+
+.intro {
+    font-family: "helvetica neue", sans-serif;
+    font-size: 1.5em;
+    color: #00a293;
+    line-height: 1.4em;
+    margin-top: 1.3em;
+}
+
+.links {
+    font-family: "helvetica neue", sans-serif;
+    font-size: 2em;
+    color: #365066 !important;
+    line-height: 1.4em;
+}
+
+a {
+    color: #365066 !important;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+a:visited {
+    text-decoration: none !important;
+    display: none;
+}
+
+.underline:hover {
+    text-decoration: none !important;
+    color: #00a293;
+}
+
+.underline:visited {
+    text-decoration: none !important;
+}
+
+a, a:hover, a:active, a:visited {
+    text-decoration:none !important;
+}
+
+.underline {
+    border-bottom: solid 4px #00a293;
+    padding-bottom: 0px;
+}
+
+
+#special {
+    border-bottom: solid 8px #0000FF;
+}
+
+.cta {
+    font-size: 1em;
+    margin-top: 50%;
+    font-family: "helvetica neue", sans-serif;
+    color: #365066;
+    border: solid 4px #00a293;
+    padding: 1em;
+    box-shadow: -7px 7px 0px #365066;
+}
+
+.back {
+    margin-bottom: 5em;
+}
+
+#wonderful {
+  color: #00a293;
+}

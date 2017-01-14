@@ -1,1 +1,85 @@
-Hello World
+<!DOCTYPE html>
+<head>
+    <meta charset- "utf-8">
+    <title>Sam Nixon - Product Manager</title>
+    <meta-name="description" content="Product person"></meta-name>
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+</head>
+<body class="body">
+  <div class="container">
+		<div class="row">
+			<div class="ten columns offset-by-one">
+				<script type="text/javascript">
+  function replace(id,content) {
+    var container = document.getElementById(id);
+    container.innerHTML = content;
+  }
+
+  var containerID = "wonderful";
+  var strings = ["a coffee snob", "a climber", "struggling with grammar", "struggling with javascript", "a product manager", "a terrible guitar player", "learning spanish", "bullshitting", "caffeinated", "building cool shit", "hacking", "always hungry", "a product designer", "a founder", "pretending to know about shit", "a product manager"];
+  var count = 0;
+  var timerID = setInterval("cycle()",2500);
+  function cycle() {
+    if(count < strings.length) {
+      replace(containerID,strings[count]);
+      count++;
+    } else {
+      count=0;
+    }
+  }
+</script>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
+                <h1 class="headline">sam nixon is <span id="wonderful">a product manager</span> in london.</h1>
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
+                <h2 class="intro">hi   &#x1F44B;<br>my name is sam, <br>I like building cool shit.</h2>
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-1 hidden-xs"></div>
+            <div class="col-md-6 col-xs-12">
+
+
+                <h2 class="links">
+
+                    i'm product owner at <a class="clicked" href="https://decoded.com" target="_blank"><span class="underline">decoded</span></a><br>
+
+                    and co-founder of <a class="clicked" href="https://mynewknow.com" target="_blank"><span class="underline">sidesalad.</span></a><br>
+
+                    and this is where my <a href="https://www.linkedin.com/in/sam-nixon-35333637" rel="me" target="_blank"><span class="underline">cv</span></a> lives.<br>
+
+                    i made <a href="https://hacksy.decoded.com"><span class="underline">this</span></a> for work.<br>
+
+                    and do <a href="https://www.instagram.com/samnixon87/"><span class="underline">this</span></a> for fun.<br>
+
+                    this is where i <a href="https://medium.com/@sam_nixon" rel="me" target="_blank"><span class="underline">write</span></a>.<br>
+
+
+            </div>
+            <div class="col-md-1 hidden-xs"></div>
+            <div class="col-md-3 col-xs-12">
+                <h3 class="cta">I'm open to freelance opportunities for product management, and consulting for startups.<br><br>Get in touch<br><br>&#x1f449; samnixon2013 at gmail dot com</h3>
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+    </div>
+            </div>
+
+      </div>
+    </div>
+</body>
