@@ -6,6 +6,7 @@
 
 .body {
     background-color: #fcf2e8;
+    letter-spacing:-0.05em;
 }
 
 .headline {
@@ -33,6 +34,7 @@
     font-size: 2em;
     color: #365066 !important;
     line-height: 1.4em;
+    cursor:pointer
 }
 
 a {
